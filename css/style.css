@@ -88,7 +88,7 @@ footer{
     background-color: rgb(121, 219, 92);
     top: calc(100vh - 30px);
     position:absolute;
-    color: #fff;
+    color: red;
     display:flex;
     justify-content: center;
     align-items: center;
