@@ -27,11 +27,3 @@ function validar(e){
 
 }
 
-const d = document
-
-d.getElementById("enviar").addEventListener("click", function(event){
-    event.preventDefault()
-    alert('Se enviaron los datos')
-  });
-    
-    
