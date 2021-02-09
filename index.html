@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png"  href="img/yaralicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <title>Input | Solo letras</title>
+</head>
+<body>
+    <div class="card">
+        <label for="input">Input de solo texto</label>
+        <form>
+        <input title="Solo se aceptan letras" class ="input" name="input" id="input" type="text" placeholder="ingrese letras" onkeypress="return validar(event)" onpaste="return false" required>
+        <input type="submit" value="Enviar" class="submit" id ="enviar">
+        </form>
+    </div>
+    <footer>
+        &copy Gary Yaral. Todos los derechos reservados.
+    </footer>
+    <script type="text/javascript" src="js/validar-input.js">
+        
+    </script>
+</body>
+</html>
